@@ -1,5 +1,5 @@
 # Password-Generator
-Password-Generator is a CLI tool that generates password.
+Password-Generator is a CLI tool that generates password. Inspired by https://github.com/m1
 
 ## Install
 
