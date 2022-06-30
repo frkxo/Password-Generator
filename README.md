@@ -58,3 +58,10 @@ ghkhgghlhkghglghlgkgjhgh
 Your Password/s is/are:
 tfumpoyu
 ```
+
+```
+▶ Password-Generator -n=false -a=false
+Your Password/s is/are:
+q]FAuZnc;aG&]P(~VVDec~u,
+```
+
