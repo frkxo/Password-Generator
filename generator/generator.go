@@ -26,11 +26,10 @@ const (
 
 	DefaultAmbiguousNumbers = "01" // Similars
 
-	/* Default symbols if user does not specifies specific symbols.
-	Such as ~` */
-	DefaultSymbols = "!$%^&*()_+{}:@[];'#<>?,./|\\-=?"
+	// Default symbols if user does not specifies specific symbols.
+	DefaultSymbols = "!$%^&*()_+{}:@[];'#<>?,./|\\-=?`~"
 
-	DefaultAmbiguousSymbols = "<>[](){}:;'/|\\," // Similars
+	DefaultAmbiguousSymbols = "<>[](){}:;'/|\\,`~" // Similars
 )
 
 var (
