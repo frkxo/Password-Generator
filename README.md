@@ -1,5 +1,5 @@
 # Password-Generator
-Password-Generator is a CLI tool that generates password. Inspired by https://github.com/m1
+Password-Generator is a CLI tool that generates password. In order to use the program you can run **go build .** to make file executable. Inspired by https://github.com/m1
 
 ## Install
 
