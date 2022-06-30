@@ -61,7 +61,7 @@ func main() {
 	mainCmd.PersistentFlags().BoolVarP(&includeNumbers, "include-numbers", "n", generator.DefaultConfig.IncludeNumbers, "include numbers in the password.")
 	mainCmd.PersistentFlags().BoolVarP(&includeSymbol, "include-symbols", "s", generator.DefaultConfig.IncludeSymbols, "include symbols in the password.")
 	mainCmd.PersistentFlags().BoolVarP(&includeUppercaseLetters, "include-uppercase-letters", "u", generator.DefaultConfig.IncludeUppercaseLetters, "include uppercase letters in the password.")
-	mainCmd.PersistentFlags().BoolVarP(&includeLowercaseLetters, "include-lowercase-letters", "l", generator.DefaultConfig.IncludeLowercaseLetters, "include lowercase letters in the password.")
+	mainCmd.PersistentFlags().BoolVarP(&includeLowercaseLetters, "include-lowercase-letters", "f", generator.DefaultConfig.IncludeLowercaseLetters, "include lowercase letters in the password.")
 	mainCmd.PersistentFlags().BoolVarP(&excludeSimilarCharacters, "exclude-similar-characters", "e", generator.DefaultConfig.ExcludeSimilarCharacters, "exclude characters that look the same in the characters.")
 	mainCmd.PersistentFlags().BoolVarP(&excludeAmbiguousCharacters, "exclude-ambiguous-characters", "a", generator.DefaultConfig.ExcludeAmbiguousCharacters, "exclude characters that hard to remember.")
 	mainCmd.PersistentFlags().UintVarP(&times, "times", "t", 1, "How many passwords you want to generate.")
