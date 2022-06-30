@@ -50,6 +50,7 @@ func generate(_ *cobra.Command, args []string) {
 }
 
 func main() {
+	//Help page for the command line
 	mainCmd = &cobra.Command{
 		Run:   generate,
 		Use:   "Password-Generator",
